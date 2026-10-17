@@ -16,7 +16,7 @@ export default function NotFound() {
         />
         <Reveal delay={0.25}>
           <p className="mt-8 max-w-md text-pretty text-[15px] leading-relaxed text-warm-gray">
-            The page you're looking for has moved, or never existed at all. The work, however, is
+            The page you&apos;re looking for has moved, or never existed at all. The work, however, is
             exactly where you left it.
           </p>
           <div className="mt-10 flex flex-wrap gap-8">
