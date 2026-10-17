@@ -89,7 +89,10 @@ export function ContactForm() {
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        if (valid) setOpened(true);
+        if (valid) {
+          setOpened(true);
+          window.location.assign(mailto);
+        }
       }}
       className="space-y-14"
     >
